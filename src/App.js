@@ -1,14 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
+import './App.scss';
+import Landing from "./components/landing/Landing";
+import Page from "./components/page/Page";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        Delphic - Coddiers - FakeInfo prevention solution
-      </header>
-    </div>
-  );
+    return (
+        <div className="App">
+            <Landing/>
+            <Page/>
+        </div>
+    );
 }
 
 export default App;
