@@ -17,7 +17,7 @@ jobs:
       - name: Check out the repo
         uses: actions/checkout@v2
 
-      - name: Login to docker hub
+#      - name: Login to docker hub
 #        env:
 #          DOCKER_USERNAME: ${{ secrets.DOCKER_USERNAME }}
 #          DOCKER_PASSWORD: ${{ secrets.DOCKER_PASSWORD }}
