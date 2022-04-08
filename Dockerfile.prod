@@ -6,9 +6,9 @@ WORKDIR /app
 COPY package.json .
 COPY package-lock.json .
 
-RUN npm install -g npm@latest --silent
+RUN npm install -g npm@8.6.0 --silent
 RUN npm install -g react-scripts@latest --silent
-RUN npm install --silent
+RUN npm install
 
 COPY . .
 
