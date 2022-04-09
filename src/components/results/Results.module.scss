@@ -1,0 +1,170 @@
+
+.bg {
+    display: block;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    text-align: center;
+  
+    background-image: url(../../assets/images/kevin-ku-w7ZyuGYNpRQ-unsplash.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.resultBox{
+    width: 1297px;
+height: 717px;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+
+background: rgba(29, 26, 38, 0.8);
+box-shadow: 0px 0px 55px rgba(188, 188, 192, 0.15);
+border-radius: 66px;
+}
+
+.containerTxt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+}
+
+h1 {
+    margin-top: 0.7em;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 200;
+font-size: 56px;
+line-height: 68px;
+text-align: center;
+letter-spacing: 0.05em;
+
+color: #FFFFFF;
+}
+
+h2 {
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 300;
+font-size: 40px;
+line-height: 48px;
+text-align: center;
+letter-spacing: 0.05em;
+
+color: #FFFFFF;
+}
+
+.resultVerdictTxt {
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 48px;
+line-height: 48px;
+text-align: center;
+letter-spacing: 0.05em;
+
+color: #f8e802;
+}
+
+.line {
+    width: 1067px;
+    height: 0px;
+    border: 2px solid #F8F8F8;
+}
+
+.containerItems {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5em;
+}
+
+.containerItemsSecond{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 0.7em;
+}
+
+.listedItems {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    
+    color: #FFFFFF;
+}
+
+.containerButtons{
+    display: flex;
+    width: 1400px;
+    justify-content: space-around;
+}
+
+.containerButtonsSecondary {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+}
+
+.buttonSecondary {
+    width: 173px;
+height: 61px;
+
+margin-top: 1em;
+background: rgba(18, 16, 47, 0.62);
+border: 3px solid rgba(248, 248, 248, 0.95);
+box-sizing: border-box;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 15px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 300;
+font-size: 24px;
+line-height: 34px;
+text-align: center;
+letter-spacing: 0.05em;
+
+color: #FFFFFF;
+cursor: pointer;
+}
+
+.buttonPrimary{
+    width: 223px;
+height: 61px;
+
+margin-top: 0.88em;
+background: #FFFFFF;
+border: 3px solid rgba(248, 248, 248, 0.95);
+box-sizing: border-box;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 15px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+line-height: 34px;
+text-align: center;
+letter-spacing: 0.05em;
+
+color: #323038;
+cursor: pointer;
+}
+
+.buttonPrimary:hover, .buttonSecondary:hover {
+transform: translateY(-3%);
+}
