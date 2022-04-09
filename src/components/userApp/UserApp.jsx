@@ -16,10 +16,10 @@ const UserApp = () => {
     return (
         <div className={styles.bg}>
             <div className={styles.smallSqContainer}>
-                <div className={styles.smallSq} onClick={() => tab(1)}>VIDEO</div>
+                <div className={styles.smallSq} onClick={() => tab(1)}>PICTURE</div>
                 <div className={styles.smallSq} onClick={() => tab(2)}>TEXT</div>
                 <div className={styles.smallSq} onClick={() => tab(3)}>URL</div>
-                <div className={styles.smallSq} onClick={() => tab(4)}>PICTURE</div>
+                <div className={styles.smallSq} onClick={() => tab(4)}>VIDEO</div>
             </div>
             <div className={styles.mainSquare}>
                 {selectedPage === 1 && <VideoInput/>}
