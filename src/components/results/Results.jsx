@@ -1,11 +1,9 @@
 import React, {useEffect} from 'react';
 import styles from './Results.module.scss'
+import {useNavigate} from "react-router-dom";
 
 const Results = (props) => {
-
-    useEffect(() => {
-        console.log(props)
-    })
+const navigate = useNavigate();
 
     return (
         <div className={styles.bg}>
@@ -26,13 +24,13 @@ const Results = (props) => {
                   <div className={styles.containerItemsSecond}>
                       <label className={styles.listedItems}>{`Create date: ${props.result.createDate}`}</label>
                       <label className={styles.listedItems}>{`Verification date: ${props.result.verifiedDate}`}</label>
-                      
+
                   </div>
                   <div className={styles.containerItemsSecond}>
                   </div>
               </div>
               <div className={styles.containerButtons}>
-              <button className={styles.buttonSecondary}>BACK</button>
+              <button className={styles.buttonSecondary} onClick={() => navigate("/user-app")}>BACK</button>
                 <div className={styles.containerButtonsSecondary}>
                     <button className={styles.buttonSecondary}>
                         <div className={styles.share}></div>SHARE</button>
