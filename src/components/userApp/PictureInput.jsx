@@ -1,7 +1,10 @@
 import React from 'react';
 import styles from "./UserApp.module.scss";
+import {useNavigate} from "react-router-dom";
 
 function PictureInput(props) {
+    const navigate = useNavigate();
+
     return (
         <div>
         <div className={styles.boxInput}>
@@ -13,7 +16,7 @@ function PictureInput(props) {
             </label>
         </div>
         <div className={styles.containerButtons}>
-                <button className={styles.btnSecondary1}>BACK</button>
+                <button className={styles.btnSecondary1} onClick={() => navigate("/")}>BACK</button>
                 <button className={styles.btnPrimary}>CHECK</button>
             </div>
     </div>

@@ -4,9 +4,11 @@ import VideoInput from "./VideoInput";
 import TextInput from "./TextInput";
 import UrlInput from "./UrlInput";
 import PictureInput from "./PictureInput";
+import {useNavigate} from "react-router-dom";
 
 const UserApp = () => {
     const [ selectedPage, setSelectedPage ] = useState(1);
+    const navigate = useNavigate();
 
     const tab = (nr) => {
         console.log(nr)
