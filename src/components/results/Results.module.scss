@@ -168,3 +168,100 @@ cursor: pointer;
 .buttonPrimary:hover, .buttonSecondary:hover {
 transform: translateY(-3%);
 }
+
+@media only screen and (max-width: 450px) {
+
+    .resultBox {
+        width: 363px;
+        height: 485.05px;
+    }
+    h1{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 24px;
+    }
+    h2 {
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 19px;
+    }
+    .resultVerdictTxt {
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 19px;
+    }
+    .line {
+        width: 303px;
+        border: 1px solid #F8F8F8;
+    }
+    .containerItems{
+        flex-direction: column;
+        gap: 0.1em;
+        margin: 0.1em;
+    }
+    .listedItems{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 28px;
+    }
+    .containerItemsSecond{
+        gap: 0em;
+        margin: 0em;
+    }
+
+    .containerButtons{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .containerButtonsSecondary{
+        flex-direction: row;
+    }
+
+    .buttonPrimary{
+        width: 255px;
+        height: 48px;
+        border-radius: 15px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+/* identical to box height */
+
+        text-align: center;
+        letter-spacing: 0.05em;
+
+        color: #323038;
+        transform: translateX(-76px);
+        
+    }
+
+    .buttonSecondary{
+        width: 95px;
+        height: 49px;
+        font-weight: 300;
+        font-size: 16px;
+        transform: translate(-80px );
+    }
+    .containerButtonsSecondary .buttonSecondary{
+        transform: translate(192px, -65px);
+        width: 135px;
+    }
+
+    .buttonSecondary:hover {
+        transform: translate(-83px );
+    }
+    .containerButtonsSecondary .buttonSecondary:hover{
+        transform: translate(192px, -67px);
+    }
+
+    .buttonPrimary:hover{
+        transform: translate(-76px, -3px);
+    }
+}
