@@ -18,9 +18,8 @@
 
 .mainSquare{
 width: 1297px;
-height: 625px;
-left: 311px;
-top: 198px;
+height: 525px;
+
 
 background: rgba(29, 26, 38, 0.8);
 box-shadow: 0px 0px 55px rgba(55, 55, 55, 0.6);
@@ -66,7 +65,7 @@ cursor: pointer;
 .textArea{
     resize: none;
     width: 1105px;
-height: 365px;
+height: 325px;
 
 background: rgba(36, 37, 43, 0.37);
 border: 3px solid rgba(248, 248, 248, 0.95);
@@ -81,7 +80,7 @@ padding: 12px 20px;
 }
 
 .btnPrimary{
-    width: 223px;
+    width: 263px;
     height: 61px;
 
     
@@ -104,7 +103,7 @@ cursor: pointer;
 }
 
 .btnSecondary{
-    width: 173px;
+    width: 213px;
     height: 61px;
     left: 407px;
     top: 694px;
@@ -128,10 +127,11 @@ cursor: pointer;
 }
 
 .containerButtons{
-    margin-top: 2em;
+    margin-top: 1.2em;
     width: 85%;
     display: flex;
     justify-content: space-between;
+    margin-bottom: 2em;
 }
 
 .btnPrimary:hover, .btnSecondary:hover{
@@ -159,7 +159,7 @@ padding: 18px 22px;
     width: 42px;
     height: 42px;
     background-image: url(../../assets/images/bx_search-alt.png);
-    transform: translate(-64px,-4px);
+    transform: translate(-64px,10px);
 }
 
 .urlContainer {
@@ -170,7 +170,7 @@ padding: 18px 22px;
 }
 
 .boxInput{
-    width: 1020px;
+    width: 1110px;
     height: 266px;
     
     background: rgba(36, 37, 43, 0.37);
