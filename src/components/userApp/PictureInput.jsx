@@ -12,6 +12,10 @@ function PictureInput(props) {
             <div className={styles.uploadImg}></div>
             </label>
         </div>
+        <div className={styles.containerButtons}>
+                <button className={styles.btnSecondary1}>BACK</button>
+                <button className={styles.btnPrimary}>CHECK</button>
+            </div>
     </div>
     );
 }

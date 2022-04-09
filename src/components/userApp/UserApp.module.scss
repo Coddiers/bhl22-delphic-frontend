@@ -97,6 +97,7 @@ font-size: 1.4em;
 line-height: 34px;
 text-align: center;
 letter-spacing: 0.05em;
+transform: translateX(160px);
 
 color: #323038;
 cursor: pointer;
@@ -134,8 +135,11 @@ cursor: pointer;
     margin-bottom: 2em;
 }
 
-.btnPrimary:hover, .btnSecondary:hover{
-    transform: translateY(-3%);
+.btnPrimary:hover{
+    transform: translate(150px,-3%);
+}
+.btnSecondary:hover{
+    transform: translate(0px,-3%);
 }
 
 .urlArea {
@@ -164,9 +168,9 @@ padding: 18px 22px;
 
 .urlContainer {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    transform: translateX(20px);
 }
 
 .boxInput{
@@ -259,11 +263,11 @@ color: #FFFFFF;
         align-items: center;
         gap: 1em;
     }
-    .btnPrimary{
+    .btnPrimary, .btnPrimary1{
         width: 255px;
         height: 56px;
     }
-    .btnSecondary{
+    .btnSecondary .btnSecondary1{
         width: 255px;
         height: 56px;
     }
@@ -285,4 +289,56 @@ color: #FFFFFF;
         background-image: url(../../assets/images/bx_search-alt-small.png);
 
     }
+}
+
+.btnPrimary1{
+    width: 263px;
+    height: 61px;
+
+    
+    background: #FFFFFF;
+    border: 3px solid rgba(248, 248, 248, 0.95);
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 1.4em;
+line-height: 34px;
+text-align: center;
+letter-spacing: 0.05em;
+
+color: #323038;
+cursor: pointer;
+}
+
+.btnSecondary1{
+    width: 213px;
+    height: 61px;
+    left: 407px;
+    top: 694px;
+    
+    background: rgba(18, 16, 47, 0.62);
+    border: 3px solid rgba(248, 248, 248, 0.95);
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 300;
+font-size: 1.4em;
+line-height: 34px;
+text-align: center;
+letter-spacing: 0.05em;
+
+color: #FFFFFF;
+cursor: pointer;
+}
+
+.imageRecieved{
+    position: fixed;
+    transform: translate(-500px);
 }

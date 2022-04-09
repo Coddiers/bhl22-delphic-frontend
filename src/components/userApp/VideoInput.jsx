@@ -73,7 +73,7 @@ function VideoInput(onCheck) {
                 <div className={styles.uploadImg}></div>
                 </label>
             </div>
-            {file && <img src={img} alt=""/>}
+            {file && <h3>Click CHECK to verify image</h3>}
             <div className={styles.containerButtons}>
                 <button className={styles.btnSecondary}>BACK</button>
                 <button className={styles.btnPrimary} onClick={onFileSend}>CHECK</button>
