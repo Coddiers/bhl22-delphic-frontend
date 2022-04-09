@@ -216,3 +216,73 @@ color: #FFFFFF;
     justify-content: center;
     align-items: center;
 }
+
+/* Responsive area */
+@media only screen and (max-width: 450px) {
+
+    .mainSquare{
+        width: 382px;
+        height: 513px;
+        border-radius: 0px 0px 15px 15px;
+
+    }
+
+    .boxInput{
+        width: 318px;
+        height: 162px;
+    }
+
+    .uploadImg{
+        width: 34px;
+        height: 35px;
+        background-image: url(../../assets/images/entypo_uploadsmall.png);
+
+    }
+
+    .textUpload {
+        font-size: 14px;
+        line-height: 17px;
+    }
+
+    .smallSq{
+        width: 95px;
+        height: 37.95px;
+        transform: translateX(0px);
+
+        font-size: 14px;
+        font-weight: 300;
+    }
+    .containerButtons {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1em;
+    }
+    .btnPrimary{
+        width: 255px;
+        height: 56px;
+    }
+    .btnSecondary{
+        width: 255px;
+        height: 56px;
+    }
+    .textArea{
+        width: 318px;
+        height: 162px;
+    }
+    .urlArea{
+        width: 316.69px;
+        height: 54px;  
+        border-radius: 14px;
+        font-size: 14px;
+        padding: 1em;
+    }
+    .searchIcon{
+        transform: translate(-50px, 6px);
+        width: 30.16px;
+        height: 30px;
+        background-image: url(../../assets/images/bx_search-alt-small.png);
+
+    }
+}
