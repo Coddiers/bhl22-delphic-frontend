@@ -1,11 +1,13 @@
 import React from 'react';
+import styles from "./UserApp.module.scss";
 
 function UrlInput(props) {
     return (
-        <div>
+        <div className={styles.urlContainer}>
             <h1>
-                Type url to verify
+                <textarea className={styles.urlArea} name="url" form="urlform">COPY URL HERE...</textarea>
             </h1>
+            <div className={styles.searchIcon}></div>
         </div>
     );
 }
