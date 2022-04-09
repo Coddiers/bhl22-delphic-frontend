@@ -9,27 +9,49 @@ const Page = () => {
     return (
         <div className={styles.container}>
             <div id={"page"} className={styles.page}>
-                <div className={styles.checks}>
-                    <h3>CHECK IF VIDEO IS FAKE</h3>
-                    <h3>CHECK IF PICTURE IS FAKE</h3>
-                    <h3>CHECK IF ARTICLE IS FAKE</h3>
+                <div className={styles.bgPicture}>
+                    <div className={styles.hero}>
+                        <nav className={styles.navbar}>
+                            <div className={styles.logo}></div>
+                        </nav>
+                        <div className={styles.helper}>
+                            <div>
+                                <h1 className={styles.mainText}>Want to check if news are fake?</h1>
+                            </div>
+                            <Link to="user-app">
+                                <button className={styles.tryNow}>TRY IT NOW</button>
+                            </Link>
+                            <div className={styles.flow}>
+                                <div className={styles.flowSecond}>
+                                    <div className={styles.rectng}>
+                                        <div className={styles.import}></div>
+                                    </div>
+                                    <h2 className={styles.secondText}>IMPORT YOUR DATA TO VERIFY</h2>
+                                </div>
+                                <div className={styles.arrow}>
+        
+                                </div>
+                                <div className={styles.flowSecond}>
+                                    <div className={styles.rectng}>
+                                         <div className={styles.check}></div>
+                                    </div>
+                                    <h2 className={styles.secondText}>CHECK IF DATA IS FAKE WITH DEEP NEURAL NETWORKS</h2>
+                                </div>
+                                <div className={styles.arrow}>
+        
+                                </div>
+                                <div className={styles.flowSecond}>
+                                    <div className={styles.rectng}>
+                                        <div className={styles.results}></div>
+                                    </div>
+                                    <h2 className={styles.secondText}>GET YOUR RESULTS</h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <h1>Want to check if news are fake?</h1>
-                <Link to="user-app">
-                    <button>Try it now</button>
-                </Link>
-                <div className={styles.flowContainer}>
-                    <div className={styles.block}>
-                        <MdInput size={100}/>
-                    </div>
-                    <AiOutlineArrowRight size={100}/>
-                    <div className={styles.block}>
-                        <AiOutlineQuestionCircle size={100}/>
-                    </div>
-                    <AiOutlineArrowRight size={100}/>
-                    <div className={styles.block}>
-                        <AiOutlineCheckSquare size={100}/>
-                    </div>
+                <div className={styles.aboutUs}>
+
                 </div>
             </div>
         </div>

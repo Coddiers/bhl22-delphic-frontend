@@ -9,6 +9,7 @@ const Landing = () => {
         <div className={styles.bg}>
             <div className={styles.hero}>
                 <div className={styles.heroInner}>
+                <div className={styles.logo}></div>
                     <h1>DELPHIC</h1>
                     <h3>Your daily fake news oracle</h3>
                     <Link to={"page"} spy={true} smooth={true}>
