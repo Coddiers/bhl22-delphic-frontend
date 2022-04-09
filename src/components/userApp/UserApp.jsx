@@ -26,10 +26,10 @@ const UserApp = () => {
                 {selectedPage === 2 && <TextInput/>}
                 {selectedPage === 3 && <UrlInput/>}
                 {selectedPage === 4 && <PictureInput/>}
-            <div className={styles.containerButtons}>
-            <button className={styles.btnSecondary}>BACK</button>
-            <button className={styles.btnPrimary}>CHECK</button>
-            </div>
+            {/*<div className={styles.containerButtons}>*/}
+            {/*<button className={styles.btnSecondary}>BACK</button>*/}
+            {/*<button className={styles.btnPrimary}>CHECK</button>*/}
+            {/*</div>*/}
             </div>
         </div>
     );
