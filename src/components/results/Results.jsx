@@ -26,12 +26,9 @@ const Results = (props) => {
                   <div className={styles.containerItemsSecond}>
                       <label className={styles.listedItems}>{`Create date: ${props.result.createDate}`}</label>
                       <label className={styles.listedItems}>{`Verification date: ${props.result.verifiedDate}`}</label>
-                      <label className={styles.listedItems}>PARAMETER NR 1</label>
+                      
                   </div>
                   <div className={styles.containerItemsSecond}>
-                      <label className={styles.listedItems}>PARAMETER NR 1</label>
-                      <label className={styles.listedItems}>PARAMETER NR 1</label>
-                      <label className={styles.listedItems}>PARAMETER NR 1</label>
                   </div>
               </div>
               <div className={styles.containerButtons}>

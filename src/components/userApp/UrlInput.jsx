@@ -7,7 +7,11 @@ function UrlInput(props) {
             <h1>
                 <textarea className={styles.urlArea} name="url" form="urlform">COPY URL HERE...</textarea>
             </h1>
-            <div className={styles.searchIcon}></div>
+            {/* <div className={styles.searchIcon}></div> */}
+            <div className={styles.containerButtons}>
+                <button className={styles.btnSecondary1}>BACK</button>
+                <button className={styles.btnPrimary1}>CHECK</button>
+            </div>
         </div>
     );
 }
