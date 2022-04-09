@@ -50,8 +50,18 @@ const Page = () => {
                         </div>
                     </div>
                 </div>
-                <div className={styles.aboutUs}>
-
+                <div className={styles.aboutUs}></div>
+                <div className={styles.footer}>
+                    <div className={styles.mainFooterFlex}>
+                    <h3 className={styles.contactText}>Contact</h3>
+                    <h3 className={styles.thirdText}>Tel: 000-000-000</h3>
+                    <h3 className={styles.thirdText}>E-Mail: delphic@gmail.com</h3>
+                       
+                    </div>
+                    <div className={styles.secondFooterFlex}>
+                            <h3 className={styles.thirdText}>2022 - Coddiers. All rights reserved</h3>
+                            <div className={styles.twitter}></div>
+                        </div>
                 </div>
             </div>
         </div>
