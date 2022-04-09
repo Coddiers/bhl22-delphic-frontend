@@ -10,8 +10,9 @@ const Results = (props) => {
     return (
         <div className={styles.bg}>
             <div className={styles.imgs}>
-                {props.inputImg && <img src={props.inputImg} alt=""/>}
+                
                 {props.inputImg && <img src={props.resultPicture} alt=""/>}
+                {props.inputImg && <img src={props.inputImg} alt=""/>}
             </div>
           <div className={styles.resultBox}>
               <h1>RESULT</h1>

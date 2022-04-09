@@ -2,7 +2,7 @@
 .bg {
     display: block;
     width: 100vw;
-    height: 100vh;
+    height: 100%;
     overflow: hidden;
 
     display: flex;
@@ -276,5 +276,16 @@ img {
 
     .buttonPrimary:hover{
         transform: translate(-76px, -3px);
+    }
+    .bg {
+        display: flex;
+        flex-direction: column;
+        gap: 5em;
+        overflow-y: scroll;
+    }
+    .imgs{
+        margin-bottom: 1em;
+        max-width: 150px;
+        max-height: 150px;
     }
 }

@@ -296,6 +296,18 @@ color: #FFFFFF;
         background-image: url(../../assets/images/bx_search-alt-small.png);
 
     }
+    .btnPrimary{
+        transform: translateX(20px);
+    }
+    .btnSecondary1{
+        transform: translateX(20px);
+    }
+    .btnSecondary{
+        transform: translateX(20px);
+    }
+    .btnPrimary:hover{
+        transform: translateX(20px);
+    }
 }
 
 .btnPrimary1{
@@ -349,3 +361,5 @@ cursor: pointer;
     position: fixed;
     transform: translate(-500px);
 }
+
+
