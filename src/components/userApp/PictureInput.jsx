@@ -1,12 +1,18 @@
 import React from 'react';
+import styles from "./UserApp.module.scss";
 
 function PictureInput(props) {
     return (
         <div>
-            <h1>
-                Drag and drop picture
-            </h1>
+        <div className={styles.boxInput}>
+            
+        <input className={styles.boxFile} type="file"  name="files[]" id="file" data-multiple-caption="{count} files selected" multiple />  
+        <label className={styles.lblUpload} for="file">
+            <h1 className={styles.textUpload}>DROP YOUR PICTURE FILE HERE</h1>
+            <div className={styles.uploadImg}></div>
+            </label>
         </div>
+    </div>
     );
 }
 
