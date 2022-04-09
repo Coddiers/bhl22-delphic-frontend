@@ -1,9 +1,9 @@
 .container {
-  background-color: pink;
+  background-color: #1D1A26;
   height: 100vh;
   width: 100vw;
   padding-top: 5px;
-  overflow: hidden;
+ // overflow: hidden;
 }
 
 .page {
@@ -24,4 +24,254 @@ h1 {
   padding: 10px;
   border: 5px solid black;
   border-radius: 25px;
+}
+
+.bgPicture {
+  width: 100vw;
+  height: 100vh;
+  background: rgb(43, 35, 35);
+  overflow: hidden;
+
+}
+.hero {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+
+  // display: flex;
+  // justify-content: center;
+  // align-items: center;
+
+  text-align: center;
+
+  background-image: url(../../assets/images/pietro-jeng-n6B49lTx7NM-unsplash.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  position: relative;
+}
+.helper {
+  width: 100vw;
+  height: 100vh;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainText{
+  font-size: 4.5em;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 38px;
+  opacity: 1;
+
+  margin-top: 0;
+  margin-bottom: 0.8em;
+  color: white;
+  letter-spacing: 0.035em;
+}
+
+.tryNow {
+width: 502px;
+height: 89px;
+
+background: rgba(6, 20, 91, 0.32);
+border: 3px solid rgba(248, 248, 248, 0.95);
+box-sizing: border-box;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 12px;
+  display: inline-block;
+  
+  color: white;
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+cursor: pointer;
+}
+
+.tryNow:hover{
+  transform: translateY(-2%);
+}
+
+.navbar {
+  width: 100%;
+	height: 5rem;
+	margin: 0;
+	padding: 0;
+	box-shadow: 0rem 0rem 2rem 0.3rem #000;
+	position: relative;
+  top: 0;
+  background-color: #1D1A26;
+
+    display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo{
+  width: 48px;
+  height: 48px;
+   transform: translateX(0%);
+   display:inline-block;
+   
+  margin-bottom: 1.0em;
+
+  background-image: url(../../assets/images/LOGO_WHITE.png);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+}
+
+.flow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4.0em;
+}
+.rectng{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 97px;
+  height: 85px;
+  border: 3px solid rgba(248, 248, 248, 0.95);
+  box-sizing: border-box;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 12px;
+  margin: 0 2em;
+}
+
+.arrow{
+  width: 82px;
+  height: 82px;
+  transform: translate(0%);
+  background-image: url(../../assets/images/bi_arrow-right-short.png);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.import {
+  width: 54px;
+  height: 54px;
+  transform: translate(0%);
+  background-image: url(../../assets/images/mdi_import.png);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.check{
+  width: 44px;
+  height: 44px;
+  transform: translate(0%);
+  background-image: url(../../assets/images/fa6-regular_circle-question.png);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.results{
+  width: 54px;
+  height: 54px;
+  transform: translate(0%);
+  background-image: url(../../assets/images/akar-icons_check-box.png);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.flowSecond {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.secondText {
+  width: 241px;
+height: 53px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 24px;
+text-align: center;
+letter-spacing: 0.05em;
+
+color: #F8F8F8;
+}
+
+
+.aboutUs{
+  height: 100vh;
+  width: 100%;
+  background: #323038;
+  background-image: url(../../assets/images/2.png);
+  box-shadow: 0px -5px 14px rgba(0, 0, 0, 0.6);
+  //background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  //background-attachment: fixed;
+}
+
+.footer{
+  height: 227px;
+left: 0px;
+top: 1222px;
+
+background: #1D1A26;
+box-shadow: 0px -5px 10px rgba(0, 0, 0, 0.25);
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+.mainFooterFlex{
+  margin-top: 2em;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.contactText{
+  margin-top: 0;
+  margin-bottom: 0.2em;
+  color: white;
+  font-size: 1.5em;
+
+}
+.secondFooterFlex{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  bottom: 0;
+  margin-top: 3em;
+  margin-bottom: 0;
+}
+
+.thirdText{
+  margin: 0 2em;
+  color: white;
+  font-weight: 500;
+}
+.twitter{
+  width: 45px;
+  height: 45px;
+  margin-right: 2em;
+  background-image: url(../../assets/images/akar-icons_twitter-fill.png);
 }

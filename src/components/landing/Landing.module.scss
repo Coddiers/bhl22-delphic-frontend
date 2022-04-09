@@ -16,7 +16,7 @@
 
   text-align: center;
 
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url(../../assets/images/landing-background.png);
+  background-image: linear-gradient(#1E212D90,#1E212D90),url(../../assets/images/landing-background.png);
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -25,14 +25,14 @@
 }
 
  .hero h1 {
-  font-size: 7em;
+  font-size: 3.5em;
   font-style: normal;
   font-weight: 500;
-  line-height: 48px;
+  line-height: 38px;
   opacity: 1;
 
   margin-top: 0;
-  margin-bottom: 0.5em;
+  margin-bottom: 0.1em;
 }
 
  .hero h3 {
@@ -42,19 +42,59 @@
   line-height: 48px;
 
   margin-top: 0;
-  margin-bottom: 0.5em;
+  margin-bottom: 12.5em;
 }
 
 .heroInner{
   margin-top: 450px;
   color: white;
 
-  .btn {
-    margin-top: 250px;
-  }
+  // .btn {
+  //   margin-top: 280px;
+  // }
 
   .btn:hover{
     cursor: pointer;
   }
+
+  .btn {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 95%;
+    height: 4%;
+    width: 4%;
+  }
+
+  .btn {
+    cursor: pointer;
+    animation-duration: 2.2s;
+    animation-name: scroll-down-main-arrow;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+  
+  @keyframes scroll-down-main-arrow {
+    to {
+      padding-top: 0.7rem;
+      width: 5%;
+      height: 5%;
+    }
+}
+.logo{
+  width: 68px;
+  height: 68px;
+   transform: translateX(0%);
+   display:inline-block;
+   
+  margin-bottom: 1.0em;
+
+  background-image: url(../../assets/images/LOGO_WHITE.png);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
 }
 
+}
