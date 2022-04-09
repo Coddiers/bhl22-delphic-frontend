@@ -69,11 +69,11 @@ function VideoInput(onCheck) {
 
             <input className={styles.boxFile} type="file"  name="files[]" id="file" data-multiple-caption="{count} files selected" multiple onChange={onFileChange}/>
             <label className={styles.lblUpload} for="file">
-                <h1 className={styles.textUpload}>DROP YOUR VIDEO FILE HERE</h1>
-                <div className={styles.uploadImg}></div>
+                {!file && <h1 className={styles.textUpload}>DROP YOUR VIDEO FILE HERE</h1>}
+                {file ? <img className={styles.uploadedImg} src={img} alt=""/> : <div className={styles.uploadImg}/>}
                 </label>
             </div>
-            {file && <img src={img} alt=""/>}
+
             <div className={styles.containerButtons}>
                 <button className={styles.btnSecondary}>BACK</button>
                 <button className={styles.btnPrimary} onClick={onFileSend}>CHECK</button>
