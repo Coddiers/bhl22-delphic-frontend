@@ -220,10 +220,14 @@ color: #F8F8F8;
   background: #323038;
   background-image: url(../../assets/images/2.png);
   box-shadow: 0px -5px 14px rgba(0, 0, 0, 0.6);
+  //background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  //background-attachment: fixed;
 }
 
 .footer{
-  height: 257px;
+  height: 227px;
 left: 0px;
 top: 1222px;
 
@@ -235,6 +239,8 @@ align-items: center;
 justify-content: center;
 }
 .mainFooterFlex{
+  margin-top: 2em;
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -245,19 +251,27 @@ justify-content: center;
 .contactText{
   margin-top: 0;
   margin-bottom: 0.2em;
-  
+  color: white;
+  font-size: 1.5em;
 
 }
 .secondFooterFlex{
+  width: 100%;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  bottom: 0;
+  margin-top: 3em;
+  margin-bottom: 0;
 }
 
 .thirdText{
-  margin: 0 0;
+  margin: 0 2em;
+  color: white;
+  font-weight: 500;
 }
 .twitter{
   width: 45px;
   height: 45px;
+  margin-right: 2em;
   background-image: url(../../assets/images/akar-icons_twitter-fill.png);
 }
