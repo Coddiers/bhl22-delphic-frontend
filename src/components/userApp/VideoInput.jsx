@@ -3,6 +3,7 @@ import styles from "./UserApp.module.scss";
 import axios from "axios";
 import Results from "../results/Results";
 import Loading from "../loading/Loading"
+import {useNavigate} from "react-router-dom";
 
 function VideoInput(onCheck) {
     const [ file, setFile ] = useState();
@@ -11,6 +12,11 @@ function VideoInput(onCheck) {
     const [ verifing, setVerifing ] = useState(false);
     const [ result, setResult ] = useState();
     const [ resultPicture, setResultPicture ] = useState();
+    const navigate = useNavigate();
+
+    function refreshPage() {
+        window.location.reload(false);
+    }
 
     const onFileChange = (event) => {
         setFile(event.target.files[0]);
@@ -75,7 +81,7 @@ function VideoInput(onCheck) {
             </div>
 
             <div className={styles.containerButtons}>
-                <button className={styles.btnSecondary}>BACK</button>
+                <button className={styles.btnSecondary} onClick={refreshPage}>BACK</button>
                 <button className={styles.btnPrimary} onClick={onFileSend}>CHECK</button>
             </div>
             {verifing && <Loading/>}
