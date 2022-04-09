@@ -1,0 +1,139 @@
+.bg{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(#1E212D90,#1E212D90), url(../../assets/images/charlesdeluvio-NVRRZ5pxX4Q-unsplash.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+
+    overflow: hidden;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainSquare{
+width: 1297px;
+height: 625px;
+left: 311px;
+top: 198px;
+
+background: rgba(29, 26, 38, 0.8);
+box-shadow: 0px 0px 55px rgba(55, 55, 55, 0.6);
+border-radius: 0px 66px 66px 66px;
+display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.smallSqContainer{
+display: flex;
+flex-direction: row;
+}
+
+.smallSq{
+width: 278px;
+height: 73px;
+display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+background: rgba(29, 26, 38, 0.5);
+box-shadow: 0px 0px 55px rgba(188, 188, 192, 0.15);
+border-radius: 66px 66px 0px 0px;
+transform: translateX(-93px);
+color: white;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 200;
+font-size: 1.6em;
+line-height: 39px;
+text-align: center;
+letter-spacing: 0.05em;
+cursor: pointer;
+}
+
+.smallSq:hover, .smallSq:active{
+    background: rgba(29, 26, 38, 0.7);
+}
+
+.textArea{
+    resize: none;
+    width: 1105px;
+height: 365px;
+
+background: rgba(36, 37, 43, 0.37);
+border: 3px solid rgba(248, 248, 248, 0.95);
+box-sizing: border-box;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 28px;
+color: white;
+font-size: 16px;
+font-family: 'Inter';
+font-weight: 400;
+padding: 12px 20px;
+}
+
+.btnPrimary{
+    width: 223px;
+    height: 61px;
+
+    
+    background: #FFFFFF;
+    border: 3px solid rgba(248, 248, 248, 0.95);
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 1.4em;
+line-height: 34px;
+text-align: center;
+letter-spacing: 0.05em;
+
+color: #323038;
+cursor: pointer;
+}
+
+.btnSecondary{
+    width: 173px;
+    height: 61px;
+    left: 407px;
+    top: 694px;
+    
+    background: rgba(18, 16, 47, 0.62);
+    border: 3px solid rgba(248, 248, 248, 0.95);
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 300;
+font-size: 1.4em;
+line-height: 34px;
+text-align: center;
+letter-spacing: 0.05em;
+
+color: #FFFFFF;
+cursor: pointer;
+}
+
+.containerButtons{
+    margin-top: 2em;
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btnPrimary:hover, .btnSecondary:hover{
+    transform: translateY(-3%);
+}
